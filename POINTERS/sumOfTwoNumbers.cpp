@@ -9,5 +9,8 @@ int main(){
     int *p3 = &a,  *p4 = &b;
     cin>>*p3>>*p4;
     int add = *p3 + *p4;
+    cout<<add;
+    int* p5=&x, P6=y;
+    //int*a , b; this type of pointer variable decleration is not valid can suppose a is pointer variable and b is normal integer variable
     return 0;
 }
